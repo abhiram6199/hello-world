@@ -1,0 +1,105 @@
+IDLE: Integrated DeveLopment Environment
+
+Print("Hello World")
+# is comment in py
+"""
+multipl
+line comment
+"""
+
+Place holder - %s-string, %d-integer
+name = "Abhi"
+age = 25
+age = "%s is %d year old"
+age%(name,age)
+
+lists: comma separated values
+Indexing starts from 0
+shopList = ["Appels", "Bananas", "Oranges"]
+shopList.append["Cherry"] - Appends value at end of the list
+del shopList[2] - deletes the value at that index
+len(shopList) - gives length of list
+max(shopList)
+min(shopList)
+can use arthmatic operations like +(to append two lists) and *(to multiply the contents)
+
+Dictionary - variable = {"key":value, "key1":value1}
+students = {"Abhi":25, "Valli":23, "Raju":52}
+students["Abhi"]
+>>> 25
+len, del arthmatic +,* works asusual
+
+Tuple - sequence lists, immutable
+tup = ("appels", "bananas", "cherry")
+cannot delete or add
+len, del arthmatic +,* works asusual
+
+ConditionalStatements 
+if else loop: maintain if, elif, else in line order
+if(condition):
+	statement
+shft+tab
+elif (condition1):
+	statement1
+shft+tab
+else:
+	statement1
+
+for loop:
+list = ["Appels", "Bananas", "Oranges"]
+for item in list:
+	print(item)
+for i in range(1,11):
+	print(i)  //resut is 0 1 2 3 4 5 6 7 8 9 10
+for i in range(1,11,2):
+	print(i)  //result is 0 2 4 6 8 10 here '2' is increment factor
+	
+while loop:
+while condition:
+	statement
+	increment
+
+break: breaks the loop
+continue: skips the iteration
+pass: filler, has nothing to do
+
+try and exception
+try:
+	statementA
+except:
+	statementB
+
+Functions
+def funName():
+	print("HelloWorld")
+def greet(name):
+	print("Hi " + name + "..!")
+	
+def add(num1, num2):
+	return(num1+num2)
+
+sum = add(2,3)  //sum=3
+
+InBuiltFunctions - py
+abs( ) gives positive num
+bool( ) bool(None)=bool(0) is False
+dir("string") gives all py has to do with
+help( )
+eval( ) runs like its a single line py code
+exec( ) runs like its a multi line py code
+str( ) converts into string
+float( )
+int( )
+
+OOP
+class person:
+	def __init__(self,name,age)
+		self.name=name
+		self.age=age
+	def getName(self):
+		print("your name is " + self.name)
+	def.getAge(self):
+		print("Your age is "  self.age)
+p = person("Abhi","25")
+p.getName()
+p.getAge()
