@@ -1,0 +1,12 @@
+git version
+git config --glogal user.name "User Name"
+git config --global user.email "address@email.com"
+git config --global --list
+git clone URL_From_Clone_Option_In_GitHub
+git status
+git add FileName.ext	--file goes to staging area waiting to commit
+git commit -m "Commit Message"	--file goes to Git repository in local
+git push origin master	--all files in local Git repository to remore repository
+	origin refers to GitHub copy of our repository(set automatically at clone)
+	master refers to the name of the branch to push
+	push command askes for username and password 
